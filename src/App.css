@@ -1,5 +1,6 @@
-.simple{
-  text-align: center;
+.container{
+  display: flex;
+  margin: 0 auto;
 }
 
 .simpleColumn{
@@ -13,6 +14,55 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  align-items: center;
+  height: 10vmin;
+  width: 13vmin;
 }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.customBut{
+  border-radius: 3px;
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(0, 0%, 57%);
+}
+
+.customBut::before{
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fc2f70;
+  transform-origin: center top;
+  transform: scaleY(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+.customBut:hover {
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+.customBut:hover::before {
+  transform-origin: center bottom;
+  transform: scaleY(1);
+  border-radius: 3px;
+
+}
+

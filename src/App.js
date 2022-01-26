@@ -1,12 +1,19 @@
 import './App.css';
+import logo from "./shared/images/Logo_TV_2015.svg.png"
 import Header from "./Components/Header";
-import Technologies from "./Components/Technologies";
+import Footer from "./Components/Footer";
+
 
 const App = () => {
     return (
-        <div className="simple">
-            <Technologies/>
-            <Header/>
+        <div className="container-xxl">
+            <Header />
+            <nav>
+                <p>Profile</p>
+                <p>Messages</p>
+                <p>Main Content</p>
+            </nav>
+            <Footer />
         </div>
     );
 }
