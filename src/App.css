@@ -19,6 +19,11 @@
   width: 13vmin;
 }
 
+.appLogoFooter{
+  height: 6vmin;
+  width: 6vmin;
+}
+
 .header{
   display: flex;
   flex-direction: row;

@@ -1,7 +1,7 @@
 import './App.css';
 import logo from "./shared/images/Logo_TV_2015.svg.png"
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import Header from "./Components/HeaderComponent/Header";
+import Footer from "./Components/FooterComponent/Footer";
 
 
 const App = () => {

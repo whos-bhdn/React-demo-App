@@ -1,4 +1,4 @@
-import logo from "../shared/images/Logo_TV_2015.svg.png";
+import logo from "../../shared/images/Logo_TV_2015.svg.png";
 
 
 const Header = () => {
