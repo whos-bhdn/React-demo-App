@@ -1,0 +1,13 @@
+.App-logo {
+    align-items: center;
+    height: 10vmin;
+    width: 13vmin;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+

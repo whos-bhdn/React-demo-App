@@ -1,11 +1,12 @@
 import logo from "../../shared/images/Logo_TV_2015.svg.png";
+import classes from "./Footer.module.css"
 
 const Footer = () => {
     return (
         <div className="container mt-3">
             <footer className="row">
                 <div className="col">
-                    <img className="appLogoFooter" src={logo} alt="132"/>
+                    <img className={classes.appLogoFooter} src={logo} alt="132"/>
                 </div>
                 <p className="text-muted">© 2022</p>
             </footer>

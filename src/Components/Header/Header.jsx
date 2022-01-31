@@ -1,4 +1,5 @@
 import logo from "../../shared/images/Logo_TV_2015.svg.png";
+import "./Header.css";
 
 
 const Header = () => {
