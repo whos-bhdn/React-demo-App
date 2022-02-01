@@ -1,5 +1,7 @@
 import logo from "../../shared/images/Logo_TV_2015.svg.png";
+import classNames from "classnames";
 import classes from "./Footer.module.css"
+
 
 const Footer = () => {
     return (
@@ -14,15 +16,14 @@ const Footer = () => {
             <div className="col"></div>
             <div className="col">
                 <h5>Contacts</h5>
-                <ul className="nav flex-column">
-                    <li className="nav-item mb-2">
-                        <a className="nav-link p-0 text-muted" href="">Instagram</a>
+                <ul className={classNames('nav', 'flex-column')}>
+                    <li className={classNames("nav-item", "mb-2")}>
+                        <a className={classNames("nav-link", "p-0", "text-muted")} href="">Instagram</a>
                     </li>
                 </ul>
             </div>
         </div>
     )
-        ;
 }
 
 

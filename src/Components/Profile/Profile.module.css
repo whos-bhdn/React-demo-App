@@ -21,6 +21,10 @@
     justify-content:flex-start;
 }
 
+.infoList{
+
+}
+
 .profileInfo{
     display: flex;
     flex-direction: column;
