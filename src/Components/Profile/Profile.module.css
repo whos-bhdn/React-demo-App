@@ -16,13 +16,13 @@
     height: 100%;
 }
 
-.profileContent{
+.container{
     display: flex;
     justify-content:flex-start;
 }
 
 .infoList{
-
+    list-style-type: none;
 }
 
 .profileInfo{
@@ -35,19 +35,4 @@
     height: 100px;
 }
 
-.postInfo{
-    display: flex;
-    align-items: center;
-}
 
-.imgPost img{
-    width: 50px;
-    height: 50px;
-}
-
-.postItem{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
